@@ -1,0 +1,8 @@
+[11-Mar-2025 14:38:01 UTC] PHP Warning:  require(/home2/eshplusdev2tqnia/public_html/vendor/composer/../../app/Helpers/helpers.php): Failed to open stream: No such file or directory in /home2/eshplusdev2tqnia/public_html/vendor/composer/autoload_real.php on line 41
+[11-Mar-2025 14:38:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/eshplusdev2tqnia/public_html/vendor/composer/../../app/Helpers/helpers.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/eshplusdev2tqnia/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/eshplusdev2tqnia/public_html/vendor/composer/autoload_real.php(45): {closure}('d21d43db5f6e840...', '/home2/eshplusd...')
+#1 /home2/eshplusdev2tqnia/public_html/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home2/eshplusdev2tqnia/public_html/artisan(18): require('/home2/eshplusd...')
+#3 {main}
+  thrown in /home2/eshplusdev2tqnia/public_html/vendor/composer/autoload_real.php on line 41
